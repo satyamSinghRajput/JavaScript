@@ -3,11 +3,11 @@ let b = 15;
 let c = 60;
 
 if(a>b && a>c ) {
-console.log(a)
+console.log("Your large nmber is a " + a)
 }
 else if(b<a && b<c) {
-console.log(b)
+console.log("Your large nmber is b "+ b)
 }
 else{
-    console.log(c)
+    console.log("Your large nmber is a " +c)
 }

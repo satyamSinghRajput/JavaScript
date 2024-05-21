@@ -6,10 +6,8 @@ let a = 42;
 
 
 if(a % 2 == 0){
-    console.log("This number is even");
+    console.log("This number is even" + a);
 }
 else{
-    console.log("This number is odd");
+    console.log("This number is odd" + a);
 }
-Date
-co

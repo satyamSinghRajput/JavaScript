@@ -1,2 +1,2 @@
 var time = new Date();
-console.log(time.toLocaleString());
+console.log("Today date is " + time.toLocaleString());
