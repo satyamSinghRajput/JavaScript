@@ -1,6 +1,6 @@
 let day = 3;
 
-switch(day){
+switch (day) {
     case 1:
         day = "Monday";
         console.log("Today day is " + day);
@@ -26,9 +26,9 @@ switch(day){
         console.log("Today day is " + day);
         break;
     case 7:
-        day ="Sunday";
+        day = "Sunday";
         console.log("Today day is " + day);
         break;
-     default:
-        console.log("This is invalid day")                     
+    default:
+        console.log("This is invalid day")
 }
