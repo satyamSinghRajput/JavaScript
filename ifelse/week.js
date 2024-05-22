@@ -1,11 +1,13 @@
-let day = "Sunday";
+let day = "sUnDay";
 
-if (day == "Monday" || day == "Tuesday" || day == "wednesday" || day == "Thuresday" || day =="Friday"){
+day = day.toUpperCase();
+
+if (day === "MONDAY" || day === "TUESDAY" || day === "WEDNESDAY" || day === "THURESDAY" || day === "FRIDAY") {
     console.log("Yes Today is weekdays " + day)
 }
-else if (day == "Saturday" || day == "Sunday"){
+else if (day == "SATURDAY" || day == "SUNDAY") {
     console.log("Yes Today is weekend " + day)
 }
-else{
+else {
     console.log("Invalid day " + day)
 }
