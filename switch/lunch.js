@@ -1,4 +1,4 @@
-let meal ="lunch";
+let meal ="breakfast";
 
 switch(meal){
     case "breakfast":

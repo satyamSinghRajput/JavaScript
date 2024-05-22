@@ -3,19 +3,19 @@ let number2 = 10;
 let oper = "/"
 
 switch (oper) {
-    case oper = "+":
+    case "+":
         result = number1 + number2;
         console.log("Addition of " + number1 + " and " + number2 + " is " + result)
         break;
-    case oper = "-":
+    case "-":
         result = number1 - number2;
         console.log("Subtraction of " + number1 + " and " + number2 + " is " + result)
         break;
-    case oper = "*":
+    case "*":
         result = number1 * number2;
         console.log("Multiplication of " + number1 + " and " + number2 + " is " + result)
         break;
-    case oper = "/":
+    case "/":
         result = number1 / number2;
         console.log("Division of " + number1 + " and " + number2 + " is " + result)
         break;

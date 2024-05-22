@@ -1,54 +1,25 @@
-let month = 12;
+let month = 2;
 
-switch(month){
+switch (month) {
     case 1:
-        month = "January";
-        console.log("In " + month + " 31 days");
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        console.log("There are 31 days in month " + month);
         break;
     case 2:
-        month = "Febaruary";
-        console.log("In " + month + " 28 days");
-        break;
-    case 3:
-        month = "March";
-        console.log("In " + month + " 31 days");
+        month = "February";
+        console.log("There are 28 days in " + month);
         break;
     case 4:
-        month = "April";
-        console.log("In " + month + " 30 days");
-        break;
-    case 5:
-        month = "May";
-        console.log("In " + month + " 31 days");
-        break;
     case 6:
-        month = "June";
-        console.log("In " + month + " 30 days");
-        break;
-    case 7:
-        month = "July";
-        console.log("In" + month + " 31 days");
-        break;
-    case 8:
-        month = "August";
-        console.log("In" + month + " 31 days");
-        break;
     case 9:
-        month = "September";
-        console.log("In " + month + " 30 days");
-        break;            
-    case 10:
-        month = "October";
-        console.log("In " + month + " 31 days");
-        break;
     case 11:
-        month = "November";
-        console.log("In " + month + " 30 days");
-        break;
-    case 12:
-        month = "December";
-        console.log("In " + month + " 31 days");
+        console.log("There are 30 days in month " + month);
         break;
     default:
-        console.log("This is invalid.Please select from 1 to 12.")          
+        console.log("This is invalid.Please select from 1 to 12.")
 }
