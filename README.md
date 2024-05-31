@@ -296,3 +296,70 @@
         * Print the season corresponding to the input month.
         * "Invalid Season" otherwise.
   </details>
+
+## Loops Challenges
+
+1. <details>
+    <summary>Print Numbers</summary>
+    
+    - [ ] Write a JavaScript program to print numbers from 1 to 10.
+
+       * **Initialize Counter**: Set a variable i to 1.
+       * **Loop Condition**: Continue looping while i is less than or equal to 10.
+       * **Print Number**: Output the value of i.
+       * **Increment Counter**: Increase i by 1 in each iteration.
+</details>
+
+2. <details>
+    <summary>Calculate Factorial</summary>
+    
+    - [ ] Write a JavaScript program to calculate the factorial of a number.
+
+        * **Initialize Factorial**: Start with a variable factorial set to 1.
+        * **Loop Initialization**: Begin a loop with a counter variable i.
+        * **Loop Condition**: Continue the loop while i is less than or equal to the input number.
+        * **Factorial Calculation**: Multiply factorial by i in each iteration.
+        * **Increment Counter**: Increase i by 1 in each iteration.
+        * **Output Result**: Print the final value of factorial.
+</details>
+
+3. <details>
+    <summary>Find Maximum Number</summary>
+    
+    - [ ] Write a JavaScript program to find the maximum number in an array.
+
+        * **Initialize Maximum**: Start with a variable max set to the first element of the array.
+        * **Loop Initialization**: Begin a loop with a counter variable i.
+        * **Loop Condition**: Continue the loop while i is less than the length of the array.
+        * **Update Maximum**: If the current element is greater than max, update max to the current element.
+        * **Increment Counter**: Increase i by 1 in each iteration.
+        * **Output Result**: Print the final value of max.
+</details>
+
+4. <details>
+    <summary>Print Multiplication Table</summary>
+    
+    - [ ] Write a JavaScript program to print the multiplication table of a given number.
+        
+        * **Get Input**: Obtain the number for which the multiplication table is required.
+        * **Loop Initialization (Outer)**: Start an outer loop with a counter variable i for the multiplicand.
+        * **Loop Condition (Outer)**: Continue the outer loop while i is less than or equal to 10.
+        * **Loop Initialization (Inner)**: Start an inner loop with a counter variable j for the multiplier.
+        * **Loop Condition (Inner)**: Continue the inner loop while j is less than or equal to 10.
+        * **Multiplication**: Calculate the product of i and j.
+        * **Print Result**: Output the multiplication table entry.
+        * **Increment Inner Loop Counter**: Increase j by 1 in each iteration of the inner loop.
+        * **Increment Outer Loop Counter**: Increase i by 1 in each iteration of the outer loop.
+</details>
+
+5. <details>
+    <summary>Check Prime Number</summary>
+    
+    - [ ] Write a JavaScript program to check whether a given number is prime or not.
+
+        * **Get Input**: Obtain the number to check for primality.
+        * **Loop Initialization**: Begin a loop with a counter variable i.
+        * **Loop Condition**: Continue the loop while i is less than the input number.
+        * **Check Divisibility**: Check if the input number is divisible by i.
+        * **Check Prime**: If the input number is divisible by any number other than 1 and itself, it's not prime.
+</details>
