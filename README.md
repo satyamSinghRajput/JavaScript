@@ -363,3 +363,19 @@
         * **Check Divisibility**: Check if the input number is divisible by i.
         * **Check Prime**: If the input number is divisible by any number other than 1 and itself, it's not prime.
 </details>
+
+6. <details>
+    <summary>Count Vowels in a String
+    
+   - [ ] Write a program that counts the number of vowels in a given string using a for loop.
+     
+       * Define a string str.
+       * Initialize a variable count to 0.
+       * Define a string vowels containing all vowels in both lowercase and uppercase.
+       * Initialize a for loop with a variable i starting at 0.
+       * Set the condition to run the loop while i is less than the length of the string.
+       * Increment i by 1 after each iteration.
+       * If the character at index i of the string is found in vowels, increment count by 1.
+       * Print the count after the loop ends.
+     </summary>
+</details>
