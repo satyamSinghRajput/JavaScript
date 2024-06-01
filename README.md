@@ -365,7 +365,7 @@
 </details>
 
 6. <details>
-    <summary>Count Vowels in a String
+    <summary>Count Vowels in a String</summary>
     
    - [ ] Write a program that counts the number of vowels in a given string using a for loop.
      
@@ -377,5 +377,5 @@
        * Increment i by 1 after each iteration.
        * If the character at index i of the string is found in vowels, increment count by 1.
        * Print the count after the loop ends.
-     </summary>
+     
 </details>
