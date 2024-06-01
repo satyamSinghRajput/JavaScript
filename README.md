@@ -304,10 +304,10 @@
     
     - [ ] Write a JavaScript program to print numbers from 1 to 10.
 
-       * **Initialize Counter**: Set a variable i to 1.
-       * **Loop Condition**: Continue looping while i is less than or equal to 10.
-       * **Print Number**: Output the value of i.
-       * **Increment Counter**: Increase i by 1 in each iteration.
+        * Initialize a for loop with a variable i starting at 1.
+        * Set the condition to run the loop while i is less than or equal to 10.
+        * Increment i by 1 after each iteration.
+        * Print the value of i in each iteration.
 </details>
 
 2. <details>
@@ -315,12 +315,13 @@
     
     - [ ] Write a JavaScript program to calculate the factorial of a number.
 
-        * **Initialize Factorial**: Start with a variable factorial set to 1.
-        * **Loop Initialization**: Begin a loop with a counter variable i.
-        * **Loop Condition**: Continue the loop while i is less than or equal to the input number.
-        * **Factorial Calculation**: Multiply factorial by i in each iteration.
-        * **Increment Counter**: Increase i by 1 in each iteration.
-        * **Output Result**: Print the final value of factorial.
+        * Define a number n.
+        * Initialize a variable result to 1.
+        * Initialize a for loop with a variable i starting at 1.
+        * Set the condition to run the loop while i is less than or equal to n.
+        * Increment i by 1 after each iteration.
+        * Multiply result by i in each iteration.
+        * Print the result after the loop ends.
 </details>
 
 3. <details>
@@ -328,12 +329,13 @@
     
     - [ ] Write a JavaScript program to find the maximum number in an array.
 
-        * **Initialize Maximum**: Start with a variable max set to the first element of the array.
-        * **Loop Initialization**: Begin a loop with a counter variable i.
-        * **Loop Condition**: Continue the loop while i is less than the length of the array.
-        * **Update Maximum**: If the current element is greater than max, update max to the current element.
-        * **Increment Counter**: Increase i by 1 in each iteration.
-        * **Output Result**: Print the final value of max.
+        * Define an array arr.
+        * Initialize a variable max to the first element of the array.
+        * Initialize a for loop with a variable i starting at 1.
+        * Set the condition to run the loop while i is less than the length of the array.
+        * Increment i by 1 after each iteration.
+        * If the element at index i of the array is greater than max, update max to this element.
+        * Print the max after the loop ends.
 </details>
 
 4. <details>
@@ -341,15 +343,11 @@
     
     - [ ] Write a JavaScript program to print the multiplication table of a given number.
         
-        * **Get Input**: Obtain the number for which the multiplication table is required.
-        * **Loop Initialization (Outer)**: Start an outer loop with a counter variable i for the multiplicand.
-        * **Loop Condition (Outer)**: Continue the outer loop while i is less than or equal to 10.
-        * **Loop Initialization (Inner)**: Start an inner loop with a counter variable j for the multiplier.
-        * **Loop Condition (Inner)**: Continue the inner loop while j is less than or equal to 10.
-        * **Multiplication**: Calculate the product of i and j.
-        * **Print Result**: Output the multiplication table entry.
-        * **Increment Inner Loop Counter**: Increase j by 1 in each iteration of the inner loop.
-        * **Increment Outer Loop Counter**: Increase i by 1 in each iteration of the outer loop.
+        * Define a number n.
+        * Initialize a for loop with a variable i starting at 1.
+        * Set the condition to run the loop while i is less than or equal to 10.
+        * Increment i by 1 after each iteration.
+        * Print the multiplication of n and i in the format n x i = result.
 </details>
 
 5. <details>
@@ -378,4 +376,118 @@
        * If the character at index i of the string is found in vowels, increment count by 1.
        * Print the count after the loop ends.
      
+</details>
+
+7. <details>
+    <summary>Count Vowels and Consonants in a String</summary>
+    
+   - [ ] Write a program to count the number of vowels and consonants in a given string.
+    
+        * Define a string str.
+        * Initialize variables vowelCount and consonantCount to 0.
+        * Convert str to lowercase.
+        * Use a for loop to iterate through each character of str.
+        * Check if the character is a vowel or consonant and increment the corresponding count.
+        * Print the counts of vowels and consonants.
+</details>
+
+8. <details>
+    <summary>Sum of Array Elements</summary>
+        
+   - [ ] Write a program that calculates the sum of all elements in an array using a for loop.
+     
+        * Define an array arr.
+        * Initialize a variable sum to 0.
+        * Initialize a for loop with a variable i starting at 0.
+        * Set the condition to run the loop while i is less than the length of the array.
+        * Increment i by 1 after each iteration.
+        * Add the element at index i of the array to sum in each iteration.
+        * Print the sum after the loop ends.
+</details>
+
+9. <details>
+    <summary>Reverse a String</summary>
+    
+   - [ ] Write a program that takes a string and prints it in reverse order using a for loop.
+
+        * Define a string str.
+        * Initialize an empty string reversed.
+        * Initialize a for loop with a variable i starting at the last index of the string (str.length - 1).
+        * Set the condition to run the loop while i is greater than or equal to 0.
+        * Decrement i by 1 after each iteration.
+        * Append the character at index i of the string to reversed.
+        * Print the reversed string.
+</details>
+
+10. <details>
+    <summary>Count Occurrences of a Character in a String</summary>
+    
+    - [ ] Write a program that counts the occurrences of a specific character in a string using a for loop.
+
+        * Define a string str and a character char.
+        * Initialize a variable count to 0.
+        * Use a for loop to iterate through each character in the string.
+        * If the current character matches char, increment count.
+        * Print the count after the loop ends.
+</details>
+
+11. <details>
+    <summary>Calculate the Product of Array Elements</summary>
+    
+    - [ ] Write a program that calculates the product of all elements in an array using a for loop.
+    
+        * Define an array arr.
+        * Initialize a variable product to 1.
+        * Use a for loop to iterate through each element of the array.
+        * Multiply each element to product.
+        * Print the product after the loop ends.
+</details>
+
+12. <details>
+    <summary>Create an Array of Odd Numbers</summary>
+
+    - [ ] Write a program that creates an array of odd numbers between 1 and 20 using a for loop.
+
+        * Initialize an empty array oddNumbers.
+        * Use a for loop with a variable i starting at 1.
+        * Set the condition to run the loop while i is less than or equal to 20.
+        * Increment i by 2 after each iteration.
+        * Push the value of i into the oddNumbers array.
+        * Print the oddNumbers array after the loop ends.
+</details>
+
+13. <details>
+    <summary>Print Elements Greater than a Given Value in an Array</summary>
+    
+    - [ ] Write a program that prints elements in an array that are greater than a given value using a for loop.
+        
+        * Define an array arr and a number value.
+        * Use a for loop to iterate through each element of the array.
+        * If the current element is greater than value, print the element.
+</details>
+
+14. <details>
+    <summary>Check if an Array is Sorted</summary>
+
+    - [ ] Write a program that checks if an array is sorted in ascending order using a for loop.
+
+        * Define an array arr.
+        * Initialize a variable isSorted to true.
+        * Use a for loop to iterate through each element of the array starting from the second element.
+        * If the current element is less than the previous element, set isSorted to false and break the loop.
+        * Print isSorted after the loop ends.
+</details>
+
+15. <details>
+    <summary>Reverse an Array</summary>
+
+    - [ ] Write a program that reverses an array using a for loop.
+
+        * Define an array arr.
+        * Initialize an empty array reversed.
+        * Use a for loop with a variable i starting at the last index of arr.
+        * Set the condition to run the loop while i is greater than or equal to 0.
+        * Decrement i by 1 after each iteration.
+        * Push the element at index i to reversed.
+        * Print the reversed array after the loop ends.
 </details>
