@@ -491,3 +491,91 @@
         * Push the element at index i to reversed.
         * Print the reversed array after the loop ends.
 </details>
+
+## Array Challenegs
+
+1. <details>
+    <summary>Sum of Array Elements</summary>
+    
+   - [ ] Calculate the sum of elements in an array.
+
+       * Initialize a variable arr with an array of numbers [1, 2, 3].
+       * Initialize a variable sum to 0.
+       * Iterate through each number num in the array arr.
+       * Add num to sum.
+       * Print or log the value of sum.
+</details>
+
+2. <details>
+    <summary> Find Maximum Number</summary>
+        
+   - [ ] Find the maximum number in an array.
+
+       * Initialize a variable arr with an array of numbers [1, 6, 3, 8, 2].
+       * Initialize a variable max to the first element of arr.
+       * Iterate through each number num in the array arr, starting from the second element.
+       * If num is greater than max, update max to num.
+       * Print or log the value of max.
+</details>
+
+3. <details>
+    <summary>Remove Duplicates</summary>
+    
+   - [ ] Remove duplicate elements from an array.
+
+       * Initialize a variable arr with an array [1, 2, 2, 3, 4, 4, 5].
+       * Initialize an empty array uniqueArray to store unique elements.
+       * Iterate through each element item in the array arr.
+       * If item is not already in uniqueArray, add item to uniqueArray.
+       * Print or log the uniqueArray.
+</details>
+
+4. <details>
+    <summary>Array Rotation</summary>
+    
+   - [ ] Rotate an array to the right by a specified number of steps.
+
+       * Initialize a variable arr with an array [1, 2, 3, 4, 5].
+       * Initialize a variable steps to 2 (number of positions to rotate).
+       * Calculate the effective number of rotations using steps % arr.length.
+       * Use array slicing to extract and concatenate the rotated array.
+       * Print or log the rotated array.
+</details>
+
+5. <details>
+    <summary>Check if Array is Sorted</summary>
+        
+   - [ ] Check if an array of numbers is sorted in non-decreasing order.
+
+       * Initialize a variable arr with an array [1, 3, 5, 7, 9].
+       * Initialize a variable sorted to true.
+       * Iterate through each number num and its index i in the array arr, starting from the second element.
+       * If any num is less than the previous element (arr[i-1]), set sorted to false and break out of the loop.
+       * Print or log the value of sorted.
+</details>
+
+6. <details>
+    <summary>Find Index of an Element</summary>
+        
+   - [ ] Find the index of a specific element in an array.
+
+       * Initialize a variable arr with an array [1, 3, 5, 7, 9].
+       * Initialize a variable target to the element to find, such as 5.
+       * Initialize a variable foundIndex to -1 to store the index of the found element.
+       * Iterate through each element num and its index i in the array arr.
+       * If num is equal to target, set foundIndex to i and break out of the loop.
+       * Print or log the value of foundIndex.
+</details>
+
+7. <details>
+    <summary>Chunk Array into Smaller Arrays</summary>
+        
+   - [ ] Split an array into smaller arrays of a specified size.
+
+       * Initialize a variable arr with an array [1, 2, 3, 4, 5, 6, 7].
+       * Initialize a variable size to the desired size of each chunk, such as 3.
+       * Initialize an empty array chunkedArray to store the resulting chunks.
+       * Iterate through the array arr with a step of size.
+       * Slice the array from the current index i to i + size and push it into chunkedArray.
+       * Print or log the chunkedArray.
+</details>
