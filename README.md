@@ -492,7 +492,7 @@
         * Print the reversed array after the loop ends.
 </details>
 
-## Array Challenegs
+## Array Challenges
 
 1. <details>
     <summary>Sum of Array Elements</summary>
@@ -578,4 +578,15 @@
        * Iterate through the array arr with a step of size.
        * Slice the array from the current index i to i + size and push it into chunkedArray.
        * Print or log the chunkedArray.
+</details>
+
+## Function Challenges
+
+1. <details>
+    <summary>Challenges Migration using function</summary>
+        
+   - [ ] Write all the above challenges using function
+
+       * Write new js for each challenges inside a function.
+       * Call those functions multiple times with different inputs and print it's output.
 </details>
